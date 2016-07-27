@@ -1,0 +1,80 @@
+OTMql4Zmq - MQL4 bindings for ZeroMQ, the high-speed messaging protocol
+for asynchronous communications between financial and trading applications.
+
+https://github.com/OpenTrading/OTMql4Zmq/
+
+With ZeroMQ (http://zeromq.org/) you can:
+* Connect your code in any language, on any platform.
+* Carries messages across inproc, IPC, TCP, TIPC, multicast.
+* Smart patterns like pub-sub, push-pull, and router-dealer.
+* High-speed asynchronous I/O engines, in a tiny library.
+* Backed by a large and active open source community.
+* Supports every modern language and platform.
+* Build any architecture: centralized, distributed, small, or large.
+
+There are two ways of using ZeroMq via in this package:
+
+1. Directly using a compiled DLL. We using ZeroMQ v2.2.0 to compile against,
+   but you should be able to connect to it from any more recent version.  See
+   CompiledDllOTMql4Zmq (https://github.com/OpenTrading/OTMql4Zmq/wiki/CompiledDllOTMql4Zmq) .
+   
+2. Through PyZmq (https://github.com/OpenTrading/OTMql4Zmq/wiki/PyZmq)
+   in Python under Metatrader using 
+   OTMql4Py (https://github.com/OpenTrading/OTMql4Py) .
+   This is slower, but gives you all of Python under Mt4.
+
+In general, you can use any version of ZeroMQ later than v2.2.0 to
+communicate with the either way of using ZeroMq, , so for example you can
+use the latest PyZmq (https://github.com/OpenTrading/OTMql4Zmq/wiki/PyZmq)
+for client scripts talking to an EA that uses the compiled DLL:
+see Scripts (https://github.com/OpenTrading/OTMql4Zmq/wiki/Scripts) .
+
+You may also want to look at our RabbitMQ solution, which is a pure
+Python solution also using OTMql4Py:
+https://github.com/OpenTrading/OTMql4AMQP/
+
+You may want to also look at:
+https://github.com/OpenTrading/OpenTrader
+which provides a command-line interpreter to speak to the OTMql4AMQP
+or OTMql4Zmq enabled Metatrader (either version).
+Most of our testing of this package is done from OpenTrader.
+
+=== Pre-Release ===
+
+**This is a work in progress - a developers' pre-release version.**
+
+OTMql4Zmq works with Metatrader on builds > 6xx, but it still needs
+testing on different versions of Windows and Mt4.
+
+The source code for the Compiled DLL has been moved to
+https://github.com/OpenTrading/mql4zmq/
+to better document the changes we made in it from the original source.
+As a convenience, we have checked in the binaries from that project
+to the {{{src/mql4zmq}}} directory. In theory the files in this project
+will always mirror that project, but that project may get broken as we
+try to move it to compiling against ZeroMQ 4.x. If anyone is good at MSVC
+and ZeroMQ, if you could look at the code in that project and help us with
+ZeroMQ 4.x version improvements, we'd be grateful.
+
+=== Project ===
+
+Please file any bugs in the issue tracker:
+https://github.com/OpenTrading/OTMql4Zmq/issues
+
+Use the Wiki to start topics for discussion:
+https://github.com/OpenTrading/OTMql4Zmq/wiki/Home
+It's good to use the wiki for knowledge capture, and then we can pull the
+important pages back into the documentation into the {{{wiki}}} subdirectory.
+You may need to be signed into github.com to see or edit in the wiki.
+
+The project wiki should be open for editing by anyone logged into GitHub:
+**Please report any system it works or doesn't work on in the wiki:
+include the Metatrader build number, the origin of the metatrader exe,
+the Windows version, and the ZeroMq version and version of the Python pyzmq.**
+This code in known to run under Linux Wine (1.7.x), so this project
+bridges Metatrader to ZeroMq under Linux.
+
+
+* Home (https://github.com/OpenTrading/OTMql4Zmq/wiki/Home)
+
+* TitleIndex (https://github.com/OpenTrading/OTMql4Zmq/wiki/TitleIndex)

@@ -1,3 +1,270 @@
+commit e497fd7ed7bef19695c55ab08000280036eeb6d1
+Date:   Fri Feb 19 18:58:36 2016 +0200
+
+    Documented the need for the MS VC 10.0 runtime
+
+commit ba49c99ab616fe4621c2ebfd742ad422bc50cd16
+Date:   Sun Aug 30 17:26:16 2015 +0300
+
+    Fixed Documentation
+
+commit edba7359dbaedf025f2e07e3bcd6a9d25b324c3a
+Date:   Sat Aug 22 06:10:37 2015 +0300
+
+    Github creole bugs workaround
+
+commit 676982c275d65c3c31f229751c5620f420dc8b79
+Date:   Fri Aug 21 22:43:29 2015 +0300
+
+    Clarified installation in the wiki
+
+commit c7e8d0e8202569a5f3584a1f19bb61d8b974be54
+Date:   Fri Aug 21 19:10:59 2015 +0300
+
+    Wired up the global variable fDebugLevel
+
+commit b5c6b9bb57456aef5a508b001b653d313104aa82
+Date:   Fri Aug 21 17:51:18 2015 +0300
+
+    Fixes from MetaMemoryT
+
+commit cf5cfca2f3bd4bfa13feeb8a03d23c19889f99c2
+Date:   Fri Aug 21 16:25:02 2015 +0300
+
+    Restored the LocalFree in OTMql4Zmq.mqh that had been commented out during debugging
+
+commit b65a66949112514c80a300f76931050e5906078b
+Date:   Wed Aug 19 17:58:53 2015 +0300
+
+    Added missing MQL4/Include/OTMql4/OTMql4Zmq.mqh
+
+commit dec1fd2fa1e0fba4bd613a0e3541eb0e7c9355a0
+Date:   Fri Aug 14 23:19:20 2015 +0300
+
+    Fixes for OTPyTestZmqEA with OpenTrader
+
+commit 935fe86a0c16fb7bef8213fda8476fa0ec32fef3
+Date:   Wed Aug 12 21:35:31 2015 +0300
+
+    Fixed using ZeroMQ for OpenTrader
+
+commit d17aaaac012757b4bbf179e89c9d7b40fbc29917
+Date:   Wed Aug 12 18:19:09 2015 +0300
+
+    Refactored to put Zmq in OpenTrader - untested
+
+commit 0c4db177879e80538c03ca09c4baf4bca70da77b
+Date:   Thu Aug 6 04:11:20 2015 +0300
+
+    Added MQL4/Python/OTMql427/ZmqListener.py
+
+commit 87f37b90f3ebf2b77f7de94cff1b42544333405a
+Date:   Wed Jul 29 01:52:48 2015 +0300
+
+    Added  bin/ZmqListener.py  temporarily while we refactor into MQL4/Python/OTMql4
+
+commit 28987c8841f0b303a8e6fccc93449355d07e4314
+Date:   Mon Jul 13 20:21:26 2015 +0300
+
+     Tried to fix communications for errors but it still needs a reqrite
+
+commit d56b836c0ef7159db3a31050df57e6509aa95996
+Date:   Sun Jul 12 23:50:25 2015 +0300
+
+    Refactored Mql4Chart and Fixed test Scripts
+
+commit af63c5b48790997d33478ea7d5ef79d4864763d2
+Date:   Mon Jun 29 23:13:15 2015 +0300
+
+    Updated doc for v2.2.0 compiled DLL
+
+commit 8468d0e9b2b0c4191875780cf361bb2decee5ac3
+Date:   Mon Jun 29 22:51:45 2015 +0300
+
+    Fixed Compiled Dll and rolled back to ZeroMQ v2.2.0
+
+commit 12d26790d3403a2d3993e44184d9ea1bd581ef03
+Date:   Thu Jun 25 08:47:12 2015 +0300
+
+    Moved MQL4/Include/OTMql4/ZmqConstants.mqh to the mql4zmq project
+
+commit 342c29f72262e02fc990198f0f5cfdf642f7ee45
+Date:   Wed Jun 24 21:36:28 2015 +0300
+
+    Partial checkin of the changes to get OTZmqCmdEA.mq4 working usinh ZeroMQ v2.2.0
+
+commit 9675f7c2c0599a0947b0e949adb7edf6f92857b1
+Date:   Wed Jun 24 20:59:02 2015 +0300
+
+    checked in src/mql4zmq/pre-compiled/*.dll from  https:/github.com/OpenTrading/mql4zmq - ZeroMQ v2.2.0
+
+commit a8139f12f9993ef4228e9fb242d2aa932cae5d2a
+Date:   Wed Jun 24 20:56:49 2015 +0300
+
+    Moved src/ to https:/github.com/OpenTrading/mql4zmq
+
+commit 491605055390efdedcc39a3b038e8826d60fe98a
+Date:   Mon Jun 22 23:45:21 2015 +0300
+
+    Documented Fixed compiled DLL sending from Mt4
+
+commit 3e98deebdc43ea7b5539fd78732d3849873d95b8
+Date:   Mon Jun 22 23:12:44 2015 +0300
+
+    Fixed compiled DLL sending from Mt4
+
+commit 692aecaf6d8ea7d373bcdc68cdb0b30802bedf1e
+Date:   Mon Jun 22 00:10:36 2015 +0300
+
+    Sending from Mt4 is now working with the DLLS with VS2010 based on libzmq-v100-mt-4_0_4
+
+commit 8d662f73f501eda9744ece030e347fe60a328701
+Date:   Sun Jun 21 23:45:59 2015 +0300
+
+    Recompiled the DLLS with VS2010 based on libzmq-v100-mt-4_0_4
+
+commit 79d9b03329ad2f555f155cb31c1141ca8afe6255
+Date:   Sun Jun 21 16:31:40 2015 +0300
+
+    replaced MQL4/Libraries/OTMql4/libzmq.dll with libzmq-v100-mt-4_0_4.dll  from http://miru.hk/archive/ZeroMQ-4.0.4~miru1.0-x86.exe
+
+commit 88452eec6b15713d1c88b63fd22808823996fdcf
+Date:   Fri Jun 19 18:00:02 2015 +0300
+
+    Moved the doc into the wiki.
+
+commit 2bb0b5c861aef0aced5478071285ae912961286d
+Date:   Thu Jun 18 23:01:08 2015 +0300
+
+    Added a warning message that MQL4/Experts/OTMql4/OTZmqCmdEA.mq4 is broken.
+
+commit a351fae648d518d7331e8979bf9f764fdc0e0af5
+Date:   Thu Jun 18 22:05:49 2015 +0300
+
+    Moved the documentation over to the wiki in Creole format.
+    Add wiki/CompiledDllOTMql4Zmq.creole to document the problems with the DLL version.
+
+commit 487556d76f259e4c4ad1b6671b4d6ec05fcee4c0
+Date:   Wed Jun 3 09:55:28 2015 +0300
+
+    Minor extensions to OTZmqProcessCmd.mq4.
+
+commit b9404cc6e6aba334f7b96a6f636817475f159137
+Date:   Mon May 18 15:42:37 2015 +0300
+
+    Refactored the MQL code into MQL4/Libraries/OTMql4/OTPyChart.mq4
+    and started using JSON to communicate to the client.
+
+commit d8ee22d15f318f08d43f560f193f525f397b980e
+Date:   Fri May 15 11:29:11 2015 +0300
+
+    Refactoring to pull common code from OTMql4AMQP and OTMql4Zmq into OTMql4Py.
+
+commit 89a2f5de549cecfaeba3e4352f00502bac6d78d0
+Date:   Fri May 8 19:11:23 2015 +0300
+
+    Sending and receiving with PyZmq both now work.
+
+commit 81fff96b785fd33b9a026323b10f4d346e9a0aa0
+Date:   Fri May 8 16:41:34 2015 +0300
+
+    Refactored the PyZmq to be more like OTMql4ZMQP.
+    It's working fine for Mt4 sending tick, bar and timer events.
+    Added a script bin/OTZmqPublish.py to test publishing messages
+    back to PyZmq Mt4 - not working yet.
+
+commit 03a50d15fad1d8d6c28bcbdc508c2668f663fc69
+Date:   Thu May 7 00:53:42 2015 +0300
+
+    Refactored the Simple message format.
+
+commit 25ab5d7e6c2fb5966a04707010c8c3fd8bb1bcc3
+Date:   Wed May 6 16:33:07 2015 +0300
+
+    Added MQL4/Python/OTMql427/ZmqChart.py to make a chart abstraction
+    that uses zmq.
+
+commit b3c408c7505cf9871782ba4c562ddc849588a9ad
+Date:   Tue May 5 19:51:51 2015 +0300
+
+    Documented that we are having problems with the receiving of messages.
+
+commit 86ce2c3f676047edccb10081afa71e1ec628e56a
+Date:   Sat May 2 14:46:19 2015 +0300
+
+    Trying with pyzmq under OTMql4Py. Still having problems with
+    crashing Mt4 on receive. For a demo expert, see
+    MQL4/Experts/OTMql4/OTPyTestZmqEA.mq4
+
+commit 6126dc3610e11e2b3b703e10783e0bc8c7e49147
+Date:   Sat May 2 14:32:24 2015 +0300
+
+    Moved MQL4/Include/OTMql4/OTZmqBarInfo.mqh to
+    OTMql4LibMQL4/Include/OTMql4/OTBarInfo.mqh
+    so it can be used by other projects.
+
+commit 1193b5a63e27d0cfc2c693cf534f7104440a342c
+Date:   Thu Apr 23 17:00:42 2015 +0300
+
+    Refactored OTLibProcessCmd.mqh into OTLibMt4ProcessCmd.mqh
+    and OTZmqProcessCmd.mqh to make it easier for people to reuse
+    ProcessCmd with the OT additions, and to extend it to handle
+    their own additions.
+
+commit eaf9f462acecf460f088055d581148f0d4d37445
+Date:   Wed Apr 22 14:22:37 2015 +0300
+
+    Renamed  bin/OTZmqPublish.py to bin/OTZmqRequest.py
+    to eliminate some confusion in the code. The
+    socket to get information from Metatrader is a REQ/REP socket.
+
+commit 21caab07061e75a856c6e06a0f7d21601cee71b2
+Date:   Tue Apr 21 23:14:13 2015 +0300
+
+    Added an Expert to send and receive over ZeroMQ
+    MQL4/Experts/OTMql4/OTZmqCmdEA.mq4
+    
+    It's not fully functional yet, but checked in to work on.
+
+commit 8876b5971efddf92970ed8e14c9e70d4265f95ce
+Date:   Mon Apr 20 08:43:24 2015 +0300
+
+    Started documening using pyzmq for testing in 05PyZmq.txt.
+
+commit e96a6465cf722542cc3081db504dae0ed1e41928
+Date:   Fri Apr 17 22:29:27 2015 +0300
+
+    Removed src/mql4zmq/examples/
+    as these will no longer use our nomeclature, and
+    we will do test scripts in Scripts and python scripts in bin.
+
+commit f6152ed12247014e4f5914c4fa55393d01b62ff0
+Date:   Fri Apr 17 21:14:51 2015 +0300
+
+    Rebased the source code on github.com/ungratefulson/mql4zmq/
+    to move the Zmq version up to 4.0.4 - the src changes are trivial.
+    
+    Used his pre-compiled binaries for now - we'll recompile them
+    ourselves as soon as time permits.
+    
+    Added a copy of our starting point to net/Git/github.com/ungratefulson
+    so that we have an explicit version of ur starting point.
+
+commit 3028f23ce462531782acf3dc70d7b1e8b1d50b02
+Date:   Thu Apr 16 20:35:10 2015 +0300
+
+    Moved legacy code to net/Git/github.com/
+
+commit a1d6a468be3a7448c00e8e8f8aa02b34c1ec6cdb
+Date:   Mon Apr 13 20:16:26 2015 +0300
+
+    Started a testing script in OTMql4ZmqTest.mq4.
+
+commit 1d0ae157196a6f99cd5fe5e9a64a1aa58f26c888
+Date:   Thu Apr 2 20:29:43 2015 +0300
+
+    Updated the README.
+
 commit 289ed35ceda8e973a652cbb288b36fb85693f4f3
 Date:   Thu Apr 2 19:59:30 2015 +0300
 

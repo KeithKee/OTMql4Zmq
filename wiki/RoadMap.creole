@@ -1,0 +1,15 @@
+
+Use the RoadMap page in the wiki to plan the future of the project.
+
+* Refactor {{{ZmqChart}}} into a mixin that can be loaded from OTCmd2.
+
+* Replace the scripts in {{{bin}}} with a {{{cmd2}}} threaded application
+  stripped from [[OpenTrader|https://github.com/OpenTrading/OpenTrader]].
+  
+* Testing: Write a Mt4 scripts that can run a series of tests.
+
+* More testing: Write Python scripts that can test Zmq under Mt4.
+
+
+----
+Parent: [[Home]]

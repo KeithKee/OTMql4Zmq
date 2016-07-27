@@ -1,0 +1,25 @@
+== Compiled Dll OTMql4Zmq ==
+
+These problems may be fixed now; test it add your results as comments to
+https://github.com/OpenTrading/OTMql4Zmq/issues/1
+
+We replaced {{{MQL4/Libraries/OTMql4/libzmq.dll}}} with
+{{{libzmq-v100-mt-2_2_0.dll}}} that we compiled with MSVC2010
+according to the original instructions. These are being tracked in
+https://github.com/OpenTrading/mql4zmq/
+
+We tried using those same instructions to compile against v4.0.4,
+and sending from Mt4 works, but we still have to rewrite the glue code
+for the version 4 changes. We'll test v2.2.0 for a while first.
+
+For an example expert for using the Compiled Dll OTMql4Zmq,
+see [[TestExpert]].
+
+=== Compiled DLL Changes ===
+
+The libraries checked in to the {{{src/}}} directory
+and the header file {{{MQL4/Include/OTMql4/OTMql4Zmq.mqh}}} are from:
+https://github.com/OpenTrading/mql4zmq/
+
+----
+Parent: [[Home]]

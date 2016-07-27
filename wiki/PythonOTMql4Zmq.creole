@@ -1,0 +1,14 @@
+=== Python OTMql4Zmq ===
+
+The PyZmq expert and code requires the OpenTrading Metatrader-Python bridge
+https://github.com/OpenTrading/OTMql4Py/
+with {{{pyzmq}}} installed in it (see [[PyZmq]]).
+
+The Metatrader-Python bridge also requires the OpenTrading  Library:
+https://github.com/OpenTrading/OTMql4Lib/
+
+For an example expert for using the Python OTMql4Zmq, see [[TestExpert]].
+
+
+----
+Parent: [[Home]]
